@@ -1,0 +1,33 @@
+.tablajedrez tr td{
+    width: 6em;
+    height: 6em;
+    background-color: #f4f4f4;
+}
+.tablajedrez tr:nth-child(even) td:nth-child(even) {
+    width: 6em;
+    height: 6em;
+    background-color: #000;
+  }
+
+.tablajedrez tr:nth-child(odd) td:nth-child(odd) {
+    width: 6em;
+    height: 6em;
+    background-color: #000;
+  }
+
+.tablajedrez tr td:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+    
+}
+.tablajedrez tr:nth-child(even) td:nth-child(even):hover {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+.tablajedrez tr:nth-child(odd) td:nth-child(odd):hover {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+.tablajedrez tr td p{
+    visibility: hidden;
+}
+.tablajedrez tr td:hover p {
+    visibility: visible;
+}
